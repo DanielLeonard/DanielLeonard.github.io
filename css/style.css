@@ -68,9 +68,10 @@ h2 {
 
 p{
 padding: 1em;
-    padding-left: 2em;
-padding-right: 2em;
-color: #292F36;}
+    padding-left: 25%;
+padding-right: 25%;
+color: #292F36;
+}
 
 blockquote{font-size: 2em;
 font-style: oblique;
