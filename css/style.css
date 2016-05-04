@@ -1,0 +1,231 @@
+{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+/*--nav---*/
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+   
+    background-color:#FFFFFF ;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    text-align: center;
+    margin-top: 1em;
+    
+
+}
+
+.nav li{
+    display:inline-block;
+    padding-left:7em;
+    padding-right: 7em;
+    
+
+    
+}
+.nav a{
+
+    clear: both;
+    padding-bottom: 0.5em;
+    font-size: auto;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+ 
+
+}
+
+/*--text---*/
+body
+    {font-family: 'Open Sans', sans-serif;
+background-color: #FFFFFF;
+    }
+h1 
+    {
+    text-align: center;
+    font-size: 600%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+   margin-bottom: 35%;
+        margin-top: -3%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    margin-bottom: 1EM;
+    margin-top: 1EM;
+}
+
+p{
+padding: 1em;
+    padding-left: 2em;
+padding-right: 2em;
+color: #292F36;}
+
+blockquote{font-size: 2em;
+font-style: oblique;
+font-weight: 600;
+color: black;}
+
+blockquote{font-size: 2em;
+color: black;}
+
+footer{text-align: center;
+color:#00D3AB;
+    padding-top: 3em;
+}
+
+.footerimage {
+width: 10em;
+}
+
+/*--Para---*/
+.para1 {
+    text-align: center;
+text-align-last: center;
+}
+
+.para2 p {
+font-family:sans-serif;
+    font-size: 1.2em;
+         color: black;
+}
+
+.para2 {
+    text-align: center;
+text-align-last: center;
+    color: black;
+
+
+}
+
+.para3 {
+    text-align: center;
+text-align-last: center;
+margin-bottom: -3em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+
+#contact{
+   
+padding-left: 1em;
+padding-bottom: 1em;
+padding-top: 1px;
+clear: both;}
+
+#contact a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+/*--Start Parrallax--*/
+
+.parallax {
+    background: url(../images/sky.jpg) repeat fixed;
+    background-size: 104em;
+}
+.parallax-inner { padding-top: 25%;
+    padding-bottom: 7em;
+}
+
+/*--End Parrallax--*/
+
+/*--images--*/
+img{
+}
+
+.me{ 
+    width:20em;
+    margin-top: -8em;
+    align-items: center;
+    border-width: 2px;
+    box-shadow: 0px 0px 0px #00D3AB;
+}
+
+.email{ 
+    width: 10em;
+}
+
+.monogram {
+    width:25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30em;
+    fill: red;
+    padding-bottom: 3em;
+
+  }
+.monogram:hover{width: 24em;
+}
+
+/*--links-to-port--*/
+
+
+.portimg{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    vertical-align: top;
+    -webkit-filter: grayscale(100%);
+    opacity: 0.8;
+}
+    
+    
+}
+
+.portimg:hover{
+    
+    opacity: 1.0;
+}
+#gallery {
+margin: 0;
+padding: 2.5%;
+list-style: none;
+    
+
+}
+
+#gallery li { float: left;
+    width: 45%;
+    margin:2.5%;
+    position: relative;
+
+}
+.center {font-family: 'Roboto', sans-serif;
+    text-align: center;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.4em;
+  transform: translate(-50%, -50%);
+-webkit-filter: blur(1px);}
+
+
+.center:hover{-webkit-filter: blur(0px);}
+
+/*--footer-links--*/
+
+
+
+
+
+

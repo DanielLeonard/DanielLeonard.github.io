@@ -1,0 +1,225 @@
+{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+}
+/*--nav---*/
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+   
+    background-color: white;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    text-align: center;
+    
+}
+.nav li{
+    display:inline-block;
+    padding-left:7em;
+    padding-right: 7em;
+    
+
+    
+}
+.nav a{
+
+    clear: both;
+    padding-bottom: 0.5em;
+    font-size: auto;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+ 
+
+}
+
+/*--text---*/
+body
+    {font-family: 'Open Sans', sans-serif;
+        background-color: #F2F2F2;
+    }
+h1 
+    {
+    text-align: center;
+    font-size: 600%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+   margin-bottom: 35%;
+        margin-top: -3%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 300%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    margin-bottom: 1EM;
+    margin-top: 1EM;
+}
+
+p{
+padding: 1em;
+    padding-left: 2em;
+padding-right: 2em;
+color: #292F36;}
+
+blockquote{font-size: 2em;
+font-style: oblique;
+font-weight: 600;
+color: white;}
+
+blockquote{font-size: 2em;
+color: white;}
+
+footer{text-align: center;
+color:#00D3AB;
+    padding-top: 3em;
+}
+
+.footerimage {
+width: 10em;
+}
+
+/*--Para---*/
+.para1 {
+    text-align: center;
+text-align-last: center;
+}
+
+.para2 p {
+font-family:sans-serif;
+    font-size: 1.2em;
+         color: white;
+}
+
+.para2 {
+    text-align: center;
+text-align-last: center;
+    color: white;
+
+
+}
+
+.para3 {
+    text-align: center;
+text-align-last: center;
+margin-bottom: -3em;
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+
+
+#contact{
+   
+padding-left: 1em;
+padding-bottom: 1em;
+padding-top: 1px;
+clear: both;}
+
+#contact a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+/*--Start Parrallax--*/
+
+.parallax {
+    background: url(../images/sky.jpg) repeat fixed;
+    background-size: 104em;
+}
+.parallax-inner { padding-top: 25%;
+    padding-bottom: 7em;
+}
+
+.parallax2 {
+    background: url(../images/DSC_1636.jpg) repeat fixed;
+    background-size: 104em;
+}
+.parallax-inner2 { padding-top: em;
+    padding-bottom: 3em;
+}
+
+.parallax3 {
+    background: url(../images/DSC_1399.jpg) repeat fixed;
+    background-size: 104em;
+}
+.parallax-inner3 { padding-top:  em;
+    padding-bottom: 60em;
+}
+/*--End Parrallax--*/
+
+/*--images--*/
+img{
+}
+
+.me{ 
+    width:20em;
+    margin-top: -8em;
+    align-items: center;
+    border-style: solid;
+    border-color:  #00D3AB;
+    border-width: 2px;
+    box-shadow: 0px 0px 0px #00D3AB;
+}
+
+.email{ 
+    width: 10em;
+}
+
+.monogram {
+    width:25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30em;
+    fill: red;
+  }
+.monogram:hover{width: 27em;}
+
+/*--links-to-port--*/
+
+
+.portimg{
+    width: 100%;
+    opacity: 0.95;
+    
+}
+
+.portimg:hover{
+    
+    opacity: 1.0;
+}
+#gallery {
+margin: 0;
+padding: 0;
+list-style: none;
+
+}
+
+#gallery li { float: left;
+    width: 30%;
+    margin:1.6%;
+    margin-bottom: 
+
+}
+
+#gallery li p {
+margin 0;
+    padding: 5%;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 600;
+     color: #292F36;
+    mar
+}
+
+
+
