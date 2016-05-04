@@ -68,8 +68,8 @@ h2 {
 
 p{
 padding: 1em;
-    padding-left: 25%;
-padding-right: 25%;
+    padding-left: 15%;
+padding-right: 15%;
 color: #292F36;
 }
 
@@ -157,9 +157,6 @@ img{
     box-shadow: 0px 0px 0px #00D3AB;
 }
 
-.email{ 
-    width: 10em;
-}
 
 .monogram {
     width:25em;
@@ -174,6 +171,13 @@ img{
 .monogram:hover{width: 24em;
 }
 
+.icon1{
+width: 4em;
+height: auto;}
+
+.icon2{width: 5em;}
+
+.icon3{width: 7em;}
 /*--links-to-port--*/
 
 
