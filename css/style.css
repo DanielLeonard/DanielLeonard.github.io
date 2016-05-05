@@ -64,13 +64,27 @@ h2 {
     letter-spacing: 1%;
     margin-bottom: 1EM;
     margin-top: 1EM;
+    
+    
 }
+h3 {
+    text-align: center;
+    font-size: 150%;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1%;
+    margin-bottom: 1EM;
+    margin-top: 1EM;}
+
+.workhead{margin-top: -0.5em;}
 
 p{
 padding: 1em;
     padding-left: 15%;
 padding-right: 15%;
 color: #292F36;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 blockquote{font-size: 2em;
@@ -132,12 +146,18 @@ clear: both;}
    
 }
 
+.contactinfo{font-size: 2em;
+}
+
+.contactinfo:hover{
+    color:red;
+}
 
 /*--Start Parrallax--*/
 
 .parallax {
     background: url(../images/sky.jpg) repeat fixed;
-    background-size: 104em;
+    background-size: 105em;
 }
 .parallax-inner { padding-top: 25%;
     padding-bottom: 7em;
@@ -171,13 +191,6 @@ img{
 .monogram:hover{width: 24em;
 }
 
-.icon1{
-width: 4em;
-height: auto;}
-
-.icon2{width: 5em;}
-
-.icon3{width: 7em;}
 /*--links-to-port--*/
 
 
@@ -187,16 +200,12 @@ height: auto;}
     z-index: -1;
     vertical-align: top;
     -webkit-filter: grayscale(100%);
-    opacity: 0.8;
+    opacity: 1;
+    
 }
     
     
-}
 
-.portimg:hover{
-    
-    opacity: 1.0;
-}
 #gallery {
 margin: 0;
 padding: 2.5%;
