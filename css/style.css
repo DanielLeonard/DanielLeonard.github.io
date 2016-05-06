@@ -156,7 +156,7 @@ clear: both;}
 /*--Start Parrallax--*/
 
 .parallax {
-    background: url(../images/sky.jpg) repeat fixed;
+    background: url(../images/sky.jpg ) repeat fixed;
     background-size: 105em;
 }
 .parallax-inner { padding-top: 25%;
@@ -191,6 +191,13 @@ img{
 .monogram:hover{width: 24em;
 }
 
+.footericons{width: 2em;
+align-content: center;}
+
+.footericons:hover{width: 2.5em;}
+
+.meicon{width: 3em;}
+
 /*--links-to-port--*/
 
 
@@ -218,6 +225,7 @@ list-style: none;
     width: 45%;
     margin:2.5%;
     position: relative;
+    opacity: 0.9;
 
 }
 .center {font-family: 'Roboto', sans-serif;
@@ -231,8 +239,10 @@ list-style: none;
   left: 50%;
   font-size: 1.4em;
   transform: translate(-50%, -50%);
--webkit-filter: blur(1px);}
+}
 
+#gallery li:hover{opacity: 1;
+}
 
 .center:hover{-webkit-filter: blur(0px);}
 
