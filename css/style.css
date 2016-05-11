@@ -82,7 +82,7 @@ p{
 padding: 1em;
     padding-left: 15%;
 padding-right: 15%;
-color: #292F36;
+color: black;
     font-size: 1.2em;
     text-align: center;
 }
@@ -156,7 +156,7 @@ clear: both;}
 /*--Start Parrallax--*/
 
 .parallax {
-    background: url(../images/sky.jpg ) repeat fixed;
+    background: url(../optomized/sky.jpg) repeat fixed;
     background-size: 105em;
 }
 .parallax-inner { padding-top: 25%;
