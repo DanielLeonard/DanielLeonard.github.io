@@ -6,6 +6,11 @@
 }
 /*--nav---*/
 
+@media (max-width: 600px), (min-width: 800px) {
+  body {widows: 600px; }
+}
+
+
 .nav{
     list-style:none;
     margin:0;
